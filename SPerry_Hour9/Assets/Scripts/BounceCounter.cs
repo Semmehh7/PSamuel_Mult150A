@@ -5,6 +5,7 @@ using UnityEngine;
 public class BounceCounter : MonoBehaviour
 {
     int counter = 0;
+
     void OnCollisionEnter(Collision collision)
     {
         counter++;
